@@ -1,0 +1,85 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.pop-up-box {
+    color: white;
+    border: 1px;
+    border-radius: 30px;
+}
+
+.pop-up-header {
+    background-image: url("img/background-image.jpg");
+    opacity: .9;
+    height: 150px;
+}
+
+.pop-up-header button {
+    color: white;
+    font-size: 50px;
+}
+
+.pop-up-header button:hover {
+    color: #4e352b;
+}
+
+.pop-up-body {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c9a79b;
+}
+
+.pop-up-body p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.pop-up-body input {
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #c9a79b;
+    border: 1px solid #dfc3b9;
+    height: 40px;
+}
+
+input::placeholder {
+    color: #c9a79b;
+}
+
+.pop-up-body button {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #dfc3b9;
+    border-radius: 10px;
+    background-color: white;
+    color: #c9a79b;
+    font-weight: bold;
+}
+
+.pop-up-body button:hover {
+    border: 1px solid #be7a61;
+    color: #be7a61;
+}
+
+.pop-up-footer {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    background-color: #c9a79b;
+}
+
+.pop-up-footer input {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #dfc3b9;
+    border-radius: 2px;
+}
+
+.pop-up-footer input:checked {
+    background-color: #be7a61!important;
+}
