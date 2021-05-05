@@ -1,4 +1,4 @@
-# Nairuz Frontend
+# Avaliação de código - Frontend
 
 ## O que é este projeto?
 
